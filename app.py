@@ -76,7 +76,7 @@ import tempfile
 import datetime
 
 # ── Page config ─────────────────────────────────────────────────────────────
-st.set_page_config(layout="wide", page_title="TPA Loss Run Parser", page_icon="🛡️")
+st.set_page_config(layout="wide", page_title="TPA Loss Run Parser", page_icon="🛡️", initial_sidebar_state="expanded")
 
 # ── Global CSS ───────────────────────────────────────────────────────────────
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
